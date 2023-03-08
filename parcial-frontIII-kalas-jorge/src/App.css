@@ -18,6 +18,38 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  border: solid 1px #fff;
+}
+
+input::placeholder{
+  color: #ffffffb6;
+}
+
+.divError{
+  color: rgb(220, 89, 89);
+  font-size: 1.2rem;
+  align-self: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+
+button:hover{
+  background-color: rgba(5,187,97,255)
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

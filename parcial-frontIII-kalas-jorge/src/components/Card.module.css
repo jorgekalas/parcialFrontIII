@@ -1,0 +1,21 @@
+.divNumeroSuerte{
+    border: 1px solid #64ff98;
+    border-radius: 25px;
+    background-color: #158637;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nombre{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.textoSup, .textoInf{
+    font-size: 1.3rem;
+}
+
+.numero{
+    font-size: 2rem;
+    font-weight: bold;
+}
